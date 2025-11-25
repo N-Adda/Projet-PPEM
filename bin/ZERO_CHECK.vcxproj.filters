@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\bin\CMakeFiles\d2f03bb45b1563aa4716dee58117ca7f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2E6441CF-84D5-3315-A54F-88BFABE76295}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/stereo.dir
+C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/ZERO_CHECK.dir

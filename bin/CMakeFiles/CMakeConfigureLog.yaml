@@ -1,0 +1,3180 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+      La génération a démarré 25/11/2025 14:33:57.
+      
+      Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" sur le nœud 1 (cibles par défaut).
+      PrepareForBuild:
+        Création du répertoire "Debug\\".
+        La sortie structurée est activée. La mise en forme du compilateur diagnostics reflète la hiérarchie des erreurs. Pour plus d’informations, consultez https://aka.ms/cpp/structured-output.
+        Création du répertoire "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Création de "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+        Mise à jour de l'horodatage "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Mise à jour de l'horodatage "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Génération du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" terminée (cibles par défaut).
+      
+      La génération a réussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps écoulé 00:00:01.10
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/4.1.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/ti/xdctools_3_23_04_60/lld-link.com"
+      - "C:/ti/xdctools_3_23_04_60/lld-link.exe"
+      - "C:/ti/xdctools_3_23_04_60/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/wapt/lld-link.com"
+      - "C:/Program Files (x86)/wapt/lld-link.exe"
+      - "C:/Program Files (x86)/wapt/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Keil_v5/UV4/lld-link.com"
+      - "C:/Keil_v5/UV4/lld-link.exe"
+      - "C:/Keil_v5/UV4/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/7-Zip/lld-link.com"
+      - "C:/Program Files/7-Zip/lld-link.exe"
+      - "C:/Program Files/7-Zip/lld-link"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lld-link.com"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lld-link.exe"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lld-link"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lld-link.com"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lld-link.exe"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/GitExtensions/lld-link.com"
+      - "C:/Program Files (x86)/GitExtensions/lld-link.exe"
+      - "C:/Program Files (x86)/GitExtensions/lld-link"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lld-link.com"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lld-link"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lld-link.com"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lld-link.exe"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lld-link"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lld-link.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lld-link.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lld-link"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lld-link.com"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lld-link.exe"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lld-link"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lld-link.com"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lld-link.exe"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lld-link"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lld-link.com"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lld-link.exe"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lld-link"
+      - "C:/Program Files/doxygen/bin/lld-link.com"
+      - "C:/Program Files/doxygen/bin/lld-link.exe"
+      - "C:/Program Files/doxygen/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/ti/xdctools_3_23_04_60/mt.com"
+      - "C:/ti/xdctools_3_23_04_60/mt.exe"
+      - "C:/ti/xdctools_3_23_04_60/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/wapt/mt.com"
+      - "C:/Program Files (x86)/wapt/mt.exe"
+      - "C:/Program Files (x86)/wapt/mt"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Keil_v5/UV4/mt.com"
+      - "C:/Keil_v5/UV4/mt.exe"
+      - "C:/Keil_v5/UV4/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/7-Zip/mt.com"
+      - "C:/Program Files/7-Zip/mt.exe"
+      - "C:/Program Files/7-Zip/mt"
+      - "C:/Program Files/Microsoft VS Code/bin/mt.com"
+      - "C:/Program Files/Microsoft VS Code/bin/mt.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/PuTTY/mt.com"
+      - "C:/Program Files/PuTTY/mt.exe"
+      - "C:/Program Files/PuTTY/mt"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/mt.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/mt.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/mt"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/mt.com"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/mt.exe"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/mt"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/mt.com"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/mt.exe"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files (x86)/GitExtensions/mt.com"
+      - "C:/Program Files (x86)/GitExtensions/mt.exe"
+      - "C:/Program Files (x86)/GitExtensions/mt"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/mt.com"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/mt.exe"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/mt"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/mt.com"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/mt.exe"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/mt"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/mt.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/mt.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/mt"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/mt.com"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/mt.exe"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/mt"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/mt.com"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/mt.exe"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/mt"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/mt.com"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/mt.exe"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/mt"
+      - "C:/Program Files/doxygen/bin/mt.com"
+      - "C:/Program Files/doxygen/bin/mt.exe"
+      - "C:/Program Files/doxygen/bin/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+      La génération a démarré 25/11/2025 14:33:59.
+      
+      Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le nœud 1 (cibles par défaut).
+      PrepareForBuild:
+        Création du répertoire "Debug\\".
+        La sortie structurée est activée. La mise en forme du compilateur diagnostics reflète la hiérarchie des erreurs. Pour plus d’informations, consultez https://aka.ms/cpp/structured-output.
+        Création du répertoire "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Création de "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+        Mise à jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Mise à jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Génération du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" terminée (cibles par défaut).
+      
+      La génération a réussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps écoulé 00:00:00.81
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/4.1.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/ti/xdctools_3_23_04_60/lld-link.com"
+      - "C:/ti/xdctools_3_23_04_60/lld-link.exe"
+      - "C:/ti/xdctools_3_23_04_60/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/wapt/lld-link.com"
+      - "C:/Program Files (x86)/wapt/lld-link.exe"
+      - "C:/Program Files (x86)/wapt/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Keil_v5/UV4/lld-link.com"
+      - "C:/Keil_v5/UV4/lld-link.exe"
+      - "C:/Keil_v5/UV4/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/7-Zip/lld-link.com"
+      - "C:/Program Files/7-Zip/lld-link.exe"
+      - "C:/Program Files/7-Zip/lld-link"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lld-link"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lld-link.com"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lld-link.exe"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lld-link"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lld-link.com"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lld-link.exe"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/GitExtensions/lld-link.com"
+      - "C:/Program Files (x86)/GitExtensions/lld-link.exe"
+      - "C:/Program Files (x86)/GitExtensions/lld-link"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lld-link.com"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lld-link"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lld-link.com"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lld-link.exe"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lld-link"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lld-link.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lld-link.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lld-link"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lld-link.com"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lld-link.exe"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lld-link"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lld-link.com"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lld-link.exe"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lld-link"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lld-link.com"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lld-link.exe"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lld-link"
+      - "C:/Program Files/doxygen/bin/lld-link.com"
+      - "C:/Program Files/doxygen/bin/lld-link.exe"
+      - "C:/Program Files/doxygen/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:21 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/stereo/bin/"
+      - "C:/Program Files (x86)/stereo/sbin/"
+      - "C:/Program Files (x86)/stereo/"
+    searched_directories:
+      - "C:/ti/xdctools_3_23_04_60/rc.com"
+      - "C:/ti/xdctools_3_23_04_60/rc.exe"
+      - "C:/ti/xdctools_3_23_04_60/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/wapt/rc.com"
+      - "C:/Program Files (x86)/wapt/rc.exe"
+      - "C:/Program Files (x86)/wapt/rc"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Keil_v5/UV4/rc.com"
+      - "C:/Keil_v5/UV4/rc.exe"
+      - "C:/Keil_v5/UV4/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/7-Zip/rc.com"
+      - "C:/Program Files/7-Zip/rc.exe"
+      - "C:/Program Files/7-Zip/rc"
+      - "C:/Program Files/Microsoft VS Code/bin/rc.com"
+      - "C:/Program Files/Microsoft VS Code/bin/rc.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/PuTTY/rc.com"
+      - "C:/Program Files/PuTTY/rc.exe"
+      - "C:/Program Files/PuTTY/rc"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/rc.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/rc.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/rc"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/rc.com"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/rc.exe"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/rc"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/rc.com"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/rc.exe"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files (x86)/GitExtensions/rc.com"
+      - "C:/Program Files (x86)/GitExtensions/rc.exe"
+      - "C:/Program Files (x86)/GitExtensions/rc"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/rc.com"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/rc.exe"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/rc"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/rc.com"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/rc.exe"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/rc"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/rc.com"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/rc.exe"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/rc"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/rc.com"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/rc.exe"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/rc"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/rc.com"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/rc.exe"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/rc"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/rc.com"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/rc.exe"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/rc"
+      - "C:/Program Files/doxygen/bin/rc.com"
+      - "C:/Program Files/doxygen/bin/rc.exe"
+      - "C:/Program Files/doxygen/bin/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/stereo/bin/rc.com"
+      - "C:/Program Files (x86)/stereo/bin/rc.exe"
+      - "C:/Program Files (x86)/stereo/bin/rc"
+      - "C:/Program Files (x86)/stereo/sbin/rc.com"
+      - "C:/Program Files (x86)/stereo/sbin/rc.exe"
+      - "C:/Program Files (x86)/stereo/sbin/rc"
+      - "C:/Program Files (x86)/stereo/rc.com"
+      - "C:/Program Files (x86)/stereo/rc.exe"
+      - "C:/Program Files (x86)/stereo/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/stereo"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-9apkk6"
+      binary: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-9apkk6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-9apkk6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_05a83.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 25/11/2025 14:34:00.
+        
+        Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9apkk6\\cmTC_05a83.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_05a83.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9apkk6\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_05a83.dir\\Debug\\cmTC_05a83.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_05a83.dir\\Debug\\cmTC_05a83.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_05a83.dir\\Debug\\cmTC_05a83.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_05a83.dir\\Debug\\\\" /Fd"cmTC_05a83.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35211 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_05a83.dir\\Debug\\\\" /Fd"cmTC_05a83.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9apkk6\\Debug\\cmTC_05a83.exe" /INCREMENTAL /ILK:"cmTC_05a83.dir\\Debug\\cmTC_05a83.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-9apkk6/Debug/cmTC_05a83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-9apkk6/Debug/cmTC_05a83.lib" /MACHINE:X64  /machine:x64 cmTC_05a83.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_05a83.vcxproj -> C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9apkk6\\Debug\\cmTC_05a83.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_05a83.dir\\Debug\\cmTC_05a83.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_05a83.dir\\Debug\\cmTC_05a83.tlog\\cmTC_05a83.lastbuildstate".
+        G├®n├®ration du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9apkk6\\cmTC_05a83.vcxproj" termin├®e (cibles par d├®faut).
+        
+        La g├®n├®ration a r├®ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.88
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-rrpfwu"
+      binary: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-rrpfwu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-rrpfwu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9052a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 25/11/2025 14:34:02.
+        
+        Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-rrpfwu\\cmTC_9052a.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_9052a.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-rrpfwu\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_9052a.dir\\Debug\\cmTC_9052a.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_9052a.dir\\Debug\\cmTC_9052a.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_9052a.dir\\Debug\\cmTC_9052a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9052a.dir\\Debug\\\\" /Fd"cmTC_9052a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35211 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9052a.dir\\Debug\\\\" /Fd"cmTC_9052a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-rrpfwu\\Debug\\cmTC_9052a.exe" /INCREMENTAL /ILK:"cmTC_9052a.dir\\Debug\\cmTC_9052a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-rrpfwu/Debug/cmTC_9052a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-rrpfwu/Debug/cmTC_9052a.lib" /MACHINE:X64  /machine:x64 cmTC_9052a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_9052a.vcxproj -> C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-rrpfwu\\Debug\\cmTC_9052a.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_9052a.dir\\Debug\\cmTC_9052a.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_9052a.dir\\Debug\\cmTC_9052a.tlog\\cmTC_9052a.lastbuildstate".
+        G├®n├®ration du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-rrpfwu\\cmTC_9052a.vcxproj" termin├®e (cibles par d├®faut).
+        
+        La g├®n├®ration a r├®ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/cmake_modules/FindSDL2.cmake:79 (FIND_PATH)"
+      - "CMakeLists.txt:53 (Find_Package)"
+    mode: "path"
+    variable: "SDL2_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL.h"
+    candidate_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/include/SDL2/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/include/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/"
+      - "C:/ti/xdctools_3_23_04_60/include/SDL2/"
+      - "C:/ti/xdctools_3_23_04_60/include/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/SDL2/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/include/SDL2/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/include/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/include/SDL2/"
+      - "C:/Windows/System32/include/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/include/SDL2/"
+      - "C:/Windows/include/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/include/SDL2/"
+      - "C:/Windows/System32/wbem/include/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/SDL2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/include/SDL2/"
+      - "C:/Windows/System32/OpenSSH/include/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/include/SDL2/"
+      - "C:/Program Files (x86)/wapt/include/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/SDL2/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/SDL2/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/include/SDL2/"
+      - "C:/Keil_v5/UV4/include/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/include/SDL2/"
+      - "C:/Program Files/dotnet/include/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/include/SDL2/"
+      - "C:/Program Files/7-Zip/include/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/include/SDL2/"
+      - "C:/Program Files/Microsoft VS Code/bin/include/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/SDL2/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/SDL2/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/include/SDL2/"
+      - "C:/Program Files/PuTTY/include/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/include/SDL2/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/include/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/include/SDL2/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/include/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/include/SDL2/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/include/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/include/SDL2/"
+      - "C:/Program Files/Git/cmd/include/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/include/SDL2/"
+      - "C:/Program Files (x86)/GitExtensions/include/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/include/SDL2/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/include/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/include/SDL2/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/include/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/include/SDL2/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/include/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/include/SDL2/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/include/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/include/SDL2/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/include/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/include/SDL2/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/include/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/include/SDL2/"
+      - "C:/Program Files/doxygen/bin/include/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/include/SDL2/"
+      - "C:/Program Files/CMake/bin/include/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/include/SDL2/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/include/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/include/include/SDL2/"
+      - "C:/Program Files/include/include/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/include/SDL2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/include/SDL2/"
+      - "C:/Program Files (x86)/include/include/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/include/SDL2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/include/SDL2/"
+      - "C:/Program Files/CMake/include/include/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/include/SDL2/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/stereo/include/include/SDL2/"
+      - "C:/Program Files (x86)/stereo/include/include/"
+      - "C:/Program Files (x86)/stereo/include/"
+      - "C:/Program Files (x86)/stereo/include/SDL2/"
+      - "C:/Program Files (x86)/stereo/include/"
+      - "C:/Program Files (x86)/stereo/"
+      - "C:/Users/nbourass/Library/Frameworks/include/SDL2/"
+      - "C:/Users/nbourass/Library/Frameworks/include/"
+      - "C:/Users/nbourass/Library/Frameworks/"
+      - "/Library/Frameworks/include/SDL2/"
+      - "/Library/Frameworks/include/"
+      - "/Library/Frameworks/"
+      - "/usr/local/include/SDL2/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/SDL2/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/sw/include/SDL2/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/SDL2/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/opt/csw/include/SDL2/"
+      - "/opt/csw/include/"
+      - "/opt/csw/"
+      - "/opt/include/SDL2/"
+      - "/opt/include/"
+      - "/opt/"
+    searched_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/include/SDL2/SDL.h"
+    found: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/include/"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/stereo"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/cmake_modules/FindSDL2.cmake:86 (FIND_LIBRARY)"
+      - "CMakeLists.txt:53 (Find_Package)"
+    mode: "library"
+    variable: "SDL2_LIBRARY_TEMP"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL2"
+    candidate_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/lib64/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/lib/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/"
+      - "C:/ti/xdctools_3_23_04_60/lib64/"
+      - "C:/ti/xdctools_3_23_04_60/lib/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/lib64/"
+      - "C:/Program Files (x86)/wapt/lib/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/lib64/"
+      - "C:/Keil_v5/UV4/lib/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/lib64/"
+      - "C:/Program Files/7-Zip/lib/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/lib64/"
+      - "C:/Program Files/Microsoft VS Code/bin/lib/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/lib64/"
+      - "C:/Program Files/PuTTY/lib/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lib64/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lib/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lib64/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lib/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/lib64/"
+      - "C:/Program Files/Git/cmd/lib/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/lib64/"
+      - "C:/Program Files (x86)/GitExtensions/lib/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lib64/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lib/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lib64/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lib/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lib64/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lib/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lib64/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lib/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/lib64/"
+      - "C:/Program Files/doxygen/bin/lib/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/lib64/"
+      - "C:/Program Files/CMake/bin/lib/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/lib64/"
+      - "C:/Program Files/CMake/lib/lib/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/lib64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/stereo/lib/lib64/"
+      - "C:/Program Files (x86)/stereo/lib/lib/"
+      - "C:/Program Files (x86)/stereo/lib/"
+      - "C:/Program Files (x86)/stereo/lib64/"
+      - "C:/Program Files (x86)/stereo/lib/"
+      - "C:/Program Files (x86)/stereo/"
+      - "C:/Program Files (x86)/stereo/bin/lib64/"
+      - "C:/Program Files (x86)/stereo/bin/lib/"
+      - "C:/Program Files (x86)/stereo/bin/"
+      - "/bin/lib64/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "C:/Users/nbourass/Library/Frameworks/lib64/"
+      - "C:/Users/nbourass/Library/Frameworks/lib/"
+      - "C:/Users/nbourass/Library/Frameworks/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/sw/lib64/"
+      - "/sw/lib/"
+      - "/sw/"
+      - "/opt/local/lib64/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/opt/csw/lib64/"
+      - "/opt/csw/lib/"
+      - "/opt/csw/"
+      - "/opt/lib64/"
+      - "/opt/lib/"
+      - "/opt/"
+    searched_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/lib64/"
+    found: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/lib/SDL2.lib"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/stereo/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/cmake_modules/FindSDL2.cmake:100 (FIND_LIBRARY)"
+      - "CMakeLists.txt:53 (Find_Package)"
+    mode: "library"
+    variable: "SDL2MAIN_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL2main"
+    candidate_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/lib64/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/lib/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/"
+      - "C:/ti/xdctools_3_23_04_60/lib64/"
+      - "C:/ti/xdctools_3_23_04_60/lib/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/lib64/"
+      - "C:/Program Files (x86)/wapt/lib/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/lib64/"
+      - "C:/Keil_v5/UV4/lib/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/lib64/"
+      - "C:/Program Files/7-Zip/lib/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/lib64/"
+      - "C:/Program Files/Microsoft VS Code/bin/lib/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/lib64/"
+      - "C:/Program Files/PuTTY/lib/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lib64/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lib/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lib64/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lib/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/lib64/"
+      - "C:/Program Files/Git/cmd/lib/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/lib64/"
+      - "C:/Program Files (x86)/GitExtensions/lib/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lib64/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lib/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lib64/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lib/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lib64/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lib/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lib64/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lib/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/lib64/"
+      - "C:/Program Files/doxygen/bin/lib/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/lib64/"
+      - "C:/Program Files/CMake/bin/lib/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/lib64/"
+      - "C:/Program Files/CMake/lib/lib/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/lib64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/stereo/lib/lib64/"
+      - "C:/Program Files (x86)/stereo/lib/lib/"
+      - "C:/Program Files (x86)/stereo/lib/"
+      - "C:/Program Files (x86)/stereo/lib64/"
+      - "C:/Program Files (x86)/stereo/lib/"
+      - "C:/Program Files (x86)/stereo/"
+      - "C:/Program Files (x86)/stereo/bin/lib64/"
+      - "C:/Program Files (x86)/stereo/bin/lib/"
+      - "C:/Program Files (x86)/stereo/bin/"
+      - "/bin/lib64/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "C:/Users/nbourass/Library/Frameworks/lib64/"
+      - "C:/Users/nbourass/Library/Frameworks/lib/"
+      - "C:/Users/nbourass/Library/Frameworks/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/sw/lib64/"
+      - "/sw/lib/"
+      - "/sw/"
+      - "/opt/local/lib64/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/opt/csw/lib64/"
+      - "/opt/csw/lib/"
+      - "/opt/csw/"
+      - "/opt/lib64/"
+      - "/opt/lib/"
+      - "/opt/"
+    searched_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/lib64/"
+    found: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2-2.0.9/lib/SDL2main.lib"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/stereo/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "lib/cmake_modules/FindSDL2.cmake:115 (FIND_PACKAGE)"
+      - "CMakeLists.txt:53 (Find_Package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-mji7ie"
+      binary: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-mji7ie"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/cmake_modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-mji7ie'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b93ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 25/11/2025 14:34:04.
+        
+        Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mji7ie\\cmTC_b93ef.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_b93ef.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mji7ie\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_b93ef.dir\\Debug\\cmTC_b93ef.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_b93ef.dir\\Debug\\cmTC_b93ef.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_b93ef.dir\\Debug\\cmTC_b93ef.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b93ef.dir\\Debug\\\\" /Fd"cmTC_b93ef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mji7ie\\src.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35211 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b93ef.dir\\Debug\\\\" /Fd"cmTC_b93ef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mji7ie\\src.c"
+          src.c
+        C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mji7ie\\src.c(1,10): error C1083: Impossible d'ouvrir le fichier include┬á: 'pthread.h'┬á: No such file or directory [C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mji7ie\\cmTC_b93ef.vcxproj]
+        G├®n├®ration du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mji7ie\\cmTC_b93ef.vcxproj" termin├®e (cibles par d├®faut) -- ├ëCHEC.
+        
+        ├ëCHEC de la build.
+        
+        "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mji7ie\\cmTC_b93ef.vcxproj" (cible par d├®faut) (1) ->
+        (ClCompile cible) -> 
+          C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mji7ie\\src.c(1,10): error C1083: Impossible d'ouvrir le fichier include┬á: 'pthread.h'┬á: No such file or directory [C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mji7ie\\cmTC_b93ef.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "lib/cmake_modules/FindSDL2.cmake:115 (FIND_PACKAGE)"
+      - "CMakeLists.txt:53 (Find_Package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-lmf8ik"
+      binary: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-lmf8ik"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/cmake_modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-lmf8ik'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1eacb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 25/11/2025 14:34:05.
+        
+        Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-lmf8ik\\cmTC_1eacb.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_1eacb.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-lmf8ik\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_1eacb.dir\\Debug\\cmTC_1eacb.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_1eacb.dir\\Debug\\cmTC_1eacb.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_1eacb.dir\\Debug\\cmTC_1eacb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1eacb.dir\\Debug\\\\" /Fd"cmTC_1eacb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-lmf8ik\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35211 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1eacb.dir\\Debug\\\\" /Fd"cmTC_1eacb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-lmf8ik\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-lmf8ik\\Debug\\cmTC_1eacb.exe" /INCREMENTAL /ILK:"cmTC_1eacb.dir\\Debug\\cmTC_1eacb.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-lmf8ik/Debug/cmTC_1eacb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-lmf8ik/Debug/cmTC_1eacb.lib" /MACHINE:X64  /machine:x64 cmTC_1eacb.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-lmf8ik\\cmTC_1eacb.vcxproj]
+        G├®n├®ration du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-lmf8ik\\cmTC_1eacb.vcxproj" termin├®e (cibles par d├®faut) -- ├ëCHEC.
+        
+        ├ëCHEC de la build.
+        
+        "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-lmf8ik\\cmTC_1eacb.vcxproj" (cible par d├®faut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-lmf8ik\\cmTC_1eacb.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "lib/cmake_modules/FindSDL2.cmake:115 (FIND_PACKAGE)"
+      - "CMakeLists.txt:53 (Find_Package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-pb584e"
+      binary: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-pb584e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/cmake_modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-pb584e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_583cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 25/11/2025 14:34:06.
+        
+        Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pb584e\\cmTC_583cd.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_583cd.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pb584e\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_583cd.dir\\Debug\\cmTC_583cd.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_583cd.dir\\Debug\\cmTC_583cd.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_583cd.dir\\Debug\\cmTC_583cd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_583cd.dir\\Debug\\\\" /Fd"cmTC_583cd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pb584e\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35211 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_583cd.dir\\Debug\\\\" /Fd"cmTC_583cd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pb584e\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pb584e\\Debug\\cmTC_583cd.exe" /INCREMENTAL /ILK:"cmTC_583cd.dir\\Debug\\cmTC_583cd.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-pb584e/Debug/cmTC_583cd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-pb584e/Debug/cmTC_583cd.lib" /MACHINE:X64  /machine:x64 cmTC_583cd.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pb584e\\cmTC_583cd.vcxproj]
+        G├®n├®ration du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pb584e\\cmTC_583cd.vcxproj" termin├®e (cibles par d├®faut) -- ├ëCHEC.
+        
+        ├ëCHEC de la build.
+        
+        "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pb584e\\cmTC_583cd.vcxproj" (cible par d├®faut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pb584e\\cmTC_583cd.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.59
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/cmake_modules/FindSDL2TTF.cmake:79 (FIND_PATH)"
+      - "CMakeLists.txt:87 (Find_Package)"
+    mode: "path"
+    variable: "SDL2TTF_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL_ttf.h"
+    candidate_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/include/SDL2/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/include/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/"
+      - "C:/ti/xdctools_3_23_04_60/include/SDL2/"
+      - "C:/ti/xdctools_3_23_04_60/include/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/SDL2/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/include/SDL2/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/include/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/include/SDL2/"
+      - "C:/Windows/System32/include/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/include/SDL2/"
+      - "C:/Windows/include/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/include/SDL2/"
+      - "C:/Windows/System32/wbem/include/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/SDL2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/include/SDL2/"
+      - "C:/Windows/System32/OpenSSH/include/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/include/SDL2/"
+      - "C:/Program Files (x86)/wapt/include/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/SDL2/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/SDL2/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/include/SDL2/"
+      - "C:/Keil_v5/UV4/include/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/include/SDL2/"
+      - "C:/Program Files/dotnet/include/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/include/SDL2/"
+      - "C:/Program Files/7-Zip/include/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/include/SDL2/"
+      - "C:/Program Files/Microsoft VS Code/bin/include/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/SDL2/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/include/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/SDL2/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/include/SDL2/"
+      - "C:/Program Files/PuTTY/include/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/include/SDL2/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/include/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/include/SDL2/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/include/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/include/SDL2/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/include/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/include/SDL2/"
+      - "C:/Program Files/Git/cmd/include/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/include/SDL2/"
+      - "C:/Program Files (x86)/GitExtensions/include/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/include/SDL2/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/include/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/include/SDL2/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/include/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/include/SDL2/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/include/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/include/SDL2/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/include/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/include/SDL2/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/include/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/include/SDL2/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/include/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/include/SDL2/"
+      - "C:/Program Files/doxygen/bin/include/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/include/SDL2/"
+      - "C:/Program Files/CMake/bin/include/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/include/SDL2/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/include/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/include/include/SDL2/"
+      - "C:/Program Files/include/include/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/include/SDL2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/include/SDL2/"
+      - "C:/Program Files (x86)/include/include/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/include/SDL2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/include/SDL2/"
+      - "C:/Program Files/CMake/include/include/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/include/SDL2/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/stereo/include/include/SDL2/"
+      - "C:/Program Files (x86)/stereo/include/include/"
+      - "C:/Program Files (x86)/stereo/include/"
+      - "C:/Program Files (x86)/stereo/include/SDL2/"
+      - "C:/Program Files (x86)/stereo/include/"
+      - "C:/Program Files (x86)/stereo/"
+      - "C:/Users/nbourass/Library/Frameworks/include/SDL2/"
+      - "C:/Users/nbourass/Library/Frameworks/include/"
+      - "C:/Users/nbourass/Library/Frameworks/"
+      - "/Library/Frameworks/include/SDL2/"
+      - "/Library/Frameworks/include/"
+      - "/Library/Frameworks/"
+      - "/usr/local/include/SDL2/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/SDL2/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/sw/include/SDL2/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/SDL2/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/opt/csw/include/SDL2/"
+      - "/opt/csw/include/"
+      - "/opt/csw/"
+      - "/opt/include/SDL2/"
+      - "/opt/include/"
+      - "/opt/"
+    searched_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/include/SDL2/SDL_ttf.h"
+    found: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/include/"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/stereo"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/cmake_modules/FindSDL2TTF.cmake:86 (FIND_LIBRARY)"
+      - "CMakeLists.txt:87 (Find_Package)"
+    mode: "library"
+    variable: "SDL2TTF_LIBRARY_TEMP"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL2_ttf"
+    candidate_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/lib64/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/lib/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/"
+      - "C:/ti/xdctools_3_23_04_60/lib64/"
+      - "C:/ti/xdctools_3_23_04_60/lib/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/lib64/"
+      - "C:/Program Files (x86)/wapt/lib/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/lib64/"
+      - "C:/Keil_v5/UV4/lib/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/lib64/"
+      - "C:/Program Files/7-Zip/lib/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/lib64/"
+      - "C:/Program Files/Microsoft VS Code/bin/lib/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/lib64/"
+      - "C:/Program Files/PuTTY/lib/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lib64/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lib/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lib64/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lib/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/lib64/"
+      - "C:/Program Files/Git/cmd/lib/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/lib64/"
+      - "C:/Program Files (x86)/GitExtensions/lib/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lib64/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lib/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lib64/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lib/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lib64/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lib/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lib64/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lib/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/lib64/"
+      - "C:/Program Files/doxygen/bin/lib/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/lib64/"
+      - "C:/Program Files/CMake/bin/lib/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/lib64/"
+      - "C:/Program Files/CMake/lib/lib/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/lib64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/stereo/lib/lib64/"
+      - "C:/Program Files (x86)/stereo/lib/lib/"
+      - "C:/Program Files (x86)/stereo/lib/"
+      - "C:/Program Files (x86)/stereo/lib64/"
+      - "C:/Program Files (x86)/stereo/lib/"
+      - "C:/Program Files (x86)/stereo/"
+      - "C:/Program Files (x86)/stereo/bin/lib64/"
+      - "C:/Program Files (x86)/stereo/bin/lib/"
+      - "C:/Program Files (x86)/stereo/bin/"
+      - "/bin/lib64/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "C:/Users/nbourass/Library/Frameworks/lib64/"
+      - "C:/Users/nbourass/Library/Frameworks/lib/"
+      - "C:/Users/nbourass/Library/Frameworks/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/sw/lib64/"
+      - "/sw/lib/"
+      - "/sw/"
+      - "/opt/local/lib64/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/opt/csw/lib64/"
+      - "/opt/csw/lib/"
+      - "/opt/csw/"
+      - "/opt/lib64/"
+      - "/opt/lib/"
+      - "/opt/"
+    searched_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/lib64/"
+    found: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/lib/SDL2_ttf.lib"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/stereo/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "lib/cmake_modules/FindSDL2TTF.cmake:100 (FIND_LIBRARY)"
+      - "CMakeLists.txt:87 (Find_Package)"
+    mode: "library"
+    variable: "SDL2TTFMAIN_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL2_ttf"
+    candidate_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/lib64/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/lib/"
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/"
+      - "C:/ti/xdctools_3_23_04_60/lib64/"
+      - "C:/ti/xdctools_3_23_04_60/lib/"
+      - "C:/ti/xdctools_3_23_04_60/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/wapt/lib64/"
+      - "C:/Program Files (x86)/wapt/lib/"
+      - "C:/Program Files (x86)/wapt/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Keil_v5/UV4/lib64/"
+      - "C:/Keil_v5/UV4/lib/"
+      - "C:/Keil_v5/UV4/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/7-Zip/lib64/"
+      - "C:/Program Files/7-Zip/lib/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Program Files/Microsoft VS Code/bin/lib64/"
+      - "C:/Program Files/Microsoft VS Code/bin/lib/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/lib64/"
+      - "C:/Program Files/PuTTY/lib/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lib64/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/lib/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lib64/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/lib/"
+      - "C:/Program Files (x86)/CodeBlocks/MinGW/bin/"
+      - "C:/Program Files/Git/cmd/lib64/"
+      - "C:/Program Files/Git/cmd/lib/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/GitExtensions/lib64/"
+      - "C:/Program Files (x86)/GitExtensions/lib/"
+      - "C:/Program Files (x86)/GitExtensions/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lib64/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/lib/"
+      - "C:/Program Files (x86)/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lib64/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/lib/"
+      - "C:/Program Files/Agilent/IO Libraries Suite/bin/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/agvisa/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lib64/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/lib/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/agvisa/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lib64/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/lib/"
+      - "C:/Program Files (x86)/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lib64/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/lib/"
+      - "C:/Program Files/IVI Foundation/IVI/Bin/"
+      - "C:/Program Files/doxygen/bin/lib64/"
+      - "C:/Program Files/doxygen/bin/lib/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/lib64/"
+      - "C:/Program Files/CMake/bin/lib/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/nbourass/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/lib64/"
+      - "C:/Program Files/CMake/lib/lib/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/lib64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/stereo/lib/lib64/"
+      - "C:/Program Files (x86)/stereo/lib/lib/"
+      - "C:/Program Files (x86)/stereo/lib/"
+      - "C:/Program Files (x86)/stereo/lib64/"
+      - "C:/Program Files (x86)/stereo/lib/"
+      - "C:/Program Files (x86)/stereo/"
+      - "C:/Program Files (x86)/stereo/bin/lib64/"
+      - "C:/Program Files (x86)/stereo/bin/lib/"
+      - "C:/Program Files (x86)/stereo/bin/"
+      - "/bin/lib64/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "C:/Users/nbourass/Library/Frameworks/lib64/"
+      - "C:/Users/nbourass/Library/Frameworks/lib/"
+      - "C:/Users/nbourass/Library/Frameworks/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/sw/lib64/"
+      - "/sw/lib/"
+      - "/sw/"
+      - "/opt/local/lib64/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/opt/csw/lib64/"
+      - "/opt/csw/lib/"
+      - "/opt/csw/"
+      - "/opt/lib64/"
+      - "/opt/lib/"
+      - "/opt/"
+    searched_directories:
+      - "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/lib64/"
+    found: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/SDL2_ttf-2.0.15/lib/SDL2_ttf.lib"
+    search_context:
+      ENV{PATH}:
+        - "C:/ti/xdctools_3_23_04_60"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\wapt"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Keil_v5\\UV4"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\GitExtensions\\"
+        - "C:\\Program Files (x86)\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files\\Agilent\\IO Libraries Suite\\bin"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\agvisa"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\agvisa"
+        - "C:\\Program Files (x86)\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\IVI Foundation\\IVI\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\nbourass\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/stereo"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/stereo/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:251 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:113 (FIND_PACKAGE)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-fj72ua"
+      binary: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-fj72ua"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/cmake_modules/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-fj72ua'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_75cc7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 25/11/2025 14:34:07.
+        
+        Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fj72ua\\cmTC_75cc7.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_75cc7.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fj72ua\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_75cc7.dir\\Debug\\cmTC_75cc7.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_75cc7.dir\\Debug\\cmTC_75cc7.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_75cc7.dir\\Debug\\cmTC_75cc7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_75cc7.dir\\Debug\\\\" /Fd"cmTC_75cc7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fj72ua\\OpenMPTryFlag.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35211 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_75cc7.dir\\Debug\\\\" /Fd"cmTC_75cc7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fj72ua\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fj72ua\\Debug\\cmTC_75cc7.exe" /INCREMENTAL /ILK:"cmTC_75cc7.dir\\Debug\\cmTC_75cc7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-fj72ua/Debug/cmTC_75cc7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-fj72ua/Debug/cmTC_75cc7.lib" /MACHINE:X64  /machine:x64 cmTC_75cc7.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_75cc7.vcxproj -> C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fj72ua\\Debug\\cmTC_75cc7.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_75cc7.dir\\Debug\\cmTC_75cc7.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_75cc7.dir\\Debug\\cmTC_75cc7.tlog\\cmTC_75cc7.lastbuildstate".
+        G├®n├®ration du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fj72ua\\cmTC_75cc7.vcxproj" termin├®e (cibles par d├®faut).
+        
+        La g├®n├®ration a r├®ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:251 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:113 (FIND_PACKAGE)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-9vqrb1"
+      binary: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-9vqrb1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/cmake_modules/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-9vqrb1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7e062.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 25/11/2025 14:34:09.
+        
+        Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9vqrb1\\cmTC_7e062.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_7e062.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9vqrb1\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_7e062.dir\\Debug\\cmTC_7e062.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_7e062.dir\\Debug\\cmTC_7e062.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_7e062.dir\\Debug\\cmTC_7e062.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_7e062.dir\\Debug\\\\" /Fd"cmTC_7e062.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9vqrb1\\OpenMPTryFlag.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35211 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_7e062.dir\\Debug\\\\" /Fd"cmTC_7e062.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9vqrb1\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9vqrb1\\Debug\\cmTC_7e062.exe" /INCREMENTAL /ILK:"cmTC_7e062.dir\\Debug\\cmTC_7e062.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-9vqrb1/Debug/cmTC_7e062.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-9vqrb1/Debug/cmTC_7e062.lib" /MACHINE:X64  /machine:x64 cmTC_7e062.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_7e062.vcxproj -> C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9vqrb1\\Debug\\cmTC_7e062.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_7e062.dir\\Debug\\cmTC_7e062.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_7e062.dir\\Debug\\cmTC_7e062.tlog\\cmTC_7e062.lastbuildstate".
+        G├®n├®ration du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9vqrb1\\cmTC_7e062.vcxproj" termin├®e (cibles par d├®faut).
+        
+        La g├®n├®ration a r├®ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:492 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:113 (FIND_PACKAGE)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-fywl19"
+      binary: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-fywl19"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/cmake_modules/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-fywl19'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f7987.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 25/11/2025 14:34:10.
+        
+        Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fywl19\\cmTC_f7987.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_f7987.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fywl19\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_f7987.dir\\Debug\\cmTC_f7987.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_f7987.dir\\Debug\\cmTC_f7987.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_f7987.dir\\Debug\\cmTC_f7987.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_f7987.dir\\Debug\\\\" /Fd"cmTC_f7987.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fywl19\\OpenMPCheckVersion.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35211 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_f7987.dir\\Debug\\\\" /Fd"cmTC_f7987.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fywl19\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fywl19\\Debug\\cmTC_f7987.exe" /INCREMENTAL /ILK:"cmTC_f7987.dir\\Debug\\cmTC_f7987.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-fywl19/Debug/cmTC_f7987.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-fywl19/Debug/cmTC_f7987.lib" /MACHINE:X64  /machine:x64 cmTC_f7987.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_f7987.vcxproj -> C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fywl19\\Debug\\cmTC_f7987.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_f7987.dir\\Debug\\cmTC_f7987.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_f7987.dir\\Debug\\cmTC_f7987.tlog\\cmTC_f7987.lastbuildstate".
+        G├®n├®ration du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-fywl19\\cmTC_f7987.vcxproj" termin├®e (cibles par d├®faut).
+        
+        La g├®n├®ration a r├®ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:492 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:113 (FIND_PACKAGE)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-myt88u"
+      binary: "C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-myt88u"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/nbourass/Downloads/stereo_proj-v241024/lib/cmake_modules/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-myt88u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_659a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.14.14+a129329f1 pour .NET Framework
+        La g├®n├®ration a d├®marr├® 25/11/2025 14:34:12.
+        
+        Projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-myt88u\\cmTC_659a6.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_659a6.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-myt88u\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_659a6.dir\\Debug\\cmTC_659a6.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_659a6.dir\\Debug\\cmTC_659a6.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_659a6.dir\\Debug\\cmTC_659a6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_659a6.dir\\Debug\\\\" /Fd"cmTC_659a6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-myt88u\\OpenMPCheckVersion.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35211 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_659a6.dir\\Debug\\\\" /Fd"cmTC_659a6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-myt88u\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-myt88u\\Debug\\cmTC_659a6.exe" /INCREMENTAL /ILK:"cmTC_659a6.dir\\Debug\\cmTC_659a6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-myt88u/Debug/cmTC_659a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/nbourass/Downloads/stereo_proj-v241024/bin/CMakeFiles/CMakeScratch/TryCompile-myt88u/Debug/cmTC_659a6.lib" /MACHINE:X64  /machine:x64 cmTC_659a6.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_659a6.vcxproj -> C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-myt88u\\Debug\\cmTC_659a6.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_659a6.dir\\Debug\\cmTC_659a6.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_659a6.dir\\Debug\\cmTC_659a6.tlog\\cmTC_659a6.lastbuildstate".
+        G├®n├®ration du projet "C:\\Users\\nbourass\\Downloads\\stereo_proj-v241024\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-myt88u\\cmTC_659a6.vcxproj" termin├®e (cibles par d├®faut).
+        
+        La g├®n├®ration a r├®ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.89
+        
+      exitCode: 0
+...

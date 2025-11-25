@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\aggregateCost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\census.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\clock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\computeWeights.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\costConstruction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\disparitySelect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\displayRGB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\medianFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\offsetGen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\rgb2Gray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\yuv2RGB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\src\yuvRead.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\aggregateCost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\census.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\computeWeights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\costConstruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\disparitySelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\displayRGB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\medianFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\offsetGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\rgb2Gray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\yuv2RGB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\include\yuvRead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nbourass\Downloads\stereo_proj-v241024\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{252E885A-376D-3382-871F-3958A25EE4B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{76945D46-71E3-30DC-A9E4-E9B030467924}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
