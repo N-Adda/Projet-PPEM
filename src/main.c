@@ -41,8 +41,11 @@ int main(void) {
 
 		// Convert images to RGB
 		static unsigned char rgbL[HEIGHT * WIDTH * 3], rgbR[HEIGHT * WIDTH * 3];
+		startTiming(1);
 		yuv2rgb(WIDTH, HEIGHT, yL, uL, vL, rgbL);
 		yuv2rgb(WIDTH, HEIGHT, yR, uR, vR, rgbR);
+		unsigned int timeYUV2RGB = stopTiming(1);
+		printf("YUV2RGB time:%u us\n", timeYUV2RGB);
 
 		// Convert to gray
 		static float grayL[HEIGHT * WIDTH], grayR[HEIGHT * WIDTH];

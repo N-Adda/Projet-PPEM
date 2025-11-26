@@ -19,6 +19,7 @@
 
 void yuv2rgb(int width, int height, unsigned char *y, unsigned char *u, unsigned char *v, unsigned char *rgb){
     int i,j;
+# pragma omp parallel for private(j) schedule(dynamic)
     for(i=0; i< height; i++){
         for(j=0; j < width; j++){
 			int idx = i*width + j;
