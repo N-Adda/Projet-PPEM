@@ -73,7 +73,10 @@ int main(void) {
 
 			// Cost construction
 			static float dispError[HEIGHT * WIDTH];
+			startTiming(51);
 			costConstruction(HEIGHT, WIDTH, 12 /*Magic number*/, &disp, grayL, grayR, cenL, cenR, dispError);
+			unsigned int timeYUV2RGB = stopTiming(51);
+			printf("temps : %u us/n", timeYUV2RGB);
 
 			static float aggregatedDisparityCost[HEIGHT * WIDTH];
 			aggregateCost(HEIGHT, WIDTH, NB_ITERATIONS, dispError, offsets, weightsHor, weightsVert, aggregatedDisparityCost);

@@ -42,6 +42,7 @@ void costConstruction (int height, int width, float truncValue,
     int i,j;
 
     // For each disparity, scan the pixels of the left image
+#pragma omp parallel for private(i) schedule(dynamic)
     for(j=0; j<height; j++)
     {
         for(i=0; i<width; i++)
