@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <float.h>
@@ -16,12 +16,22 @@
 #include "disparitySelect.h"
 #include "medianFilter.h"
 #include "md5.h"
-
+#include <omp.h>
 
 int stopThreads = 0;
 
 int main(void) {
+
+	omp_set_dynamic(0);      // Empêche OpenMP de modifier le nombre de threads
+	omp_set_nested(0);       // Empêche les parallélismes imbriqués
+	omp_set_num_threads(4);  // Ton CPU = 4 threads logiques
+
 	printf("Stereo Matching App\n");
+
+	//Variable temps
+	double t_disp_start, t_disp_end;
+	double T_disp = 0.0;
+	int frameCount = 0;
 
 	// Open YUV Files (left & right)
 	initReadYUV(0, WIDTH, HEIGHT);
@@ -30,6 +40,8 @@ int main(void) {
 	// Init display
 	displayRGBInit(0, HEIGHT, WIDTH);
 	displayRGBInit(1, HEIGHT, WIDTH);
+
+
 
 	while (!stopThreads) {
 
@@ -65,16 +77,18 @@ int main(void) {
 
 		// Find for each pixel, the disparity level minimizing the aggregated costs.
 		static unsigned char depthMap[HEIGHT * WIDTH];
-		memset(depthMap, 0, HEIGHT * WIDTH*sizeof(char));
+		memset(depthMap, 0, HEIGHT * WIDTH * sizeof(char));
 		static float bestCost[HEIGHT * WIDTH];
+
+
 
 		// For each degree of disparity
 		for (char disp = MIN_DISPARITY; disp <= MAX_DISPARITY; disp++) {
 
 			// Cost construction
-			static float dispError[HEIGHT * WIDTH];
+			static float dispError[HEIGHT * WIDTH];			
 			costConstruction(HEIGHT, WIDTH, 12 /*Magic number*/, &disp, grayL, grayR, cenL, cenR, dispError);
-
+		
 			static float aggregatedDisparityCost[HEIGHT * WIDTH];
 			aggregateCost(HEIGHT, WIDTH, NB_ITERATIONS, dispError, offsets, weightsHor, weightsVert, aggregatedDisparityCost);
 
@@ -82,8 +96,11 @@ int main(void) {
 				memcpy(bestCost, aggregatedDisparityCost, HEIGHT * WIDTH * sizeof(float));
 			}
 			else {
+				t_disp_start = omp_get_wtime();
 				// Compare the current disparity cost to previous ones
 				disparitySelect(HEIGHT, WIDTH, 12, MIN_DISPARITY, &disp, aggregatedDisparityCost, bestCost, depthMap);
+				t_disp_end = omp_get_wtime();
+				T_disp += (t_disp_end - t_disp_start);
 			}
 		}
 
@@ -96,8 +113,18 @@ int main(void) {
 		displayLum(1, filteredDepthMap);
 
 		// MD5
+
 		MD5_Update(HEIGHT * WIDTH * sizeof(char), filteredDepthMap);
+
+		frameCount++;
+
+		if (frameCount % 30 == 0) {
+			printf("Temps moyen disparitySelect = %.3f ms\n",
+				(T_disp / frameCount) * 1000.0);
+		}
 	}
 
 	return 0;
+
 }
+

@@ -11,6 +11,7 @@
 
 #include "disparitySelect.h"
 #include <string.h>
+#include <omp.h>
 
 #define min(x,y) (((x)<(y))?(x):(y))
 #define max(x,y) (((x)<(y))?(y):(x))
@@ -27,6 +28,7 @@ void disparitySelect(int height, int width, int scale,
 
 	// For all other iterations
 	// Scan the pixels of the aggregated disparity
+	#pragma omp parallel for private(i) schedule(dynamic)
 	for (j = 0; j < height; j++)
 	{
 		for (i = 0; i < width; i++)
@@ -43,3 +45,4 @@ void disparitySelect(int height, int width, int scale,
 	}
 
 }
+
