@@ -12,6 +12,7 @@
 
 #include <math.h>
 #include "computeWeights.h"
+#include <omp.h>
 
 #define R_gamaC (float) 1.0/16.0f /*(1.0)/16.0 */
 #define min(x,y) (((x)<(y))?(x):(y))
@@ -31,6 +32,7 @@ void computeWeights (int height , int width, int horOrVert,
 	//distanceCoeff *= -1;
 
     // Scan the pixels of the rgb image
+    //#pragma omp parallel for private(i) schedule(static) 
     for(j=0; j<height; j++)
     {
         for(i=0; i<width; i++)
