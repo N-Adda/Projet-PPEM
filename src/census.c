@@ -21,7 +21,7 @@ void census(int height, int width, float *gray, unsigned char *cen){
     // Scan the pixels of the grey image
     // except the 1 pixel-wide band around the image.
     // Chaque thread traite un sous-ensemble de lignes j
-   // #pragma omp parallel for private(i,k,l) schedule(static)
+   #pragma omp parallel for private(i,k,l) schedule(guided)
     for(j=1; j<height-1; j++){
 		// 1st and last pixels of the line are 0
 		cen[j*width] = 0;

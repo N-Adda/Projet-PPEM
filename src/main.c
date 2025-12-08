@@ -23,18 +23,18 @@ int stopThreads = 0;
 int main(void) {
 
 	// Empêche les parallélismes imbriqués
-	//omp_set_num_threads(4);  // CPU = 4 threads logiques
+	omp_set_num_threads(15);  // CPU = 4 threads logiques
 
 	printf("Stereo Matching App\n");
 
 	//Variable temps disparity
-	/*double t_disp_start, t_disp_end;
-	double T_disp = 0.0;*/
-	int frameCount = 0;
+	//double t_disp_start, t_disp_end;
+	//double T_disp = 0.0;
+	//int frameCount = 0;
 
 	//Variable temps rgb2gray
-	double t_rgb2gray_start, t_rgb2gray_end;
-	double T_rgb2gray = 0.0;
+	//double t_census_start, t_census_end;
+	//double T_census = 0.0;
 
 
 	// Open YUV Files (left & right)
@@ -62,25 +62,27 @@ int main(void) {
 
 		
 		// Convert to gray
-		t_rgb2gray_start = omp_get_wtime();
+		
 		static float grayL[HEIGHT * WIDTH], grayR[HEIGHT * WIDTH];
 		rgb2Gray(HEIGHT * WIDTH, rgbL, grayL);
 		rgb2Gray(HEIGHT * WIDTH, rgbR, grayR);
-		t_rgb2gray_end = omp_get_wtime();
-		T_rgb2gray += (t_rgb2gray_end - t_rgb2gray_start);
+		
 
 		// Census
 		static unsigned char cenL[HEIGHT * WIDTH], cenR[HEIGHT * WIDTH];
 		census(HEIGHT, WIDTH, grayL, cenL);
 		census(HEIGHT, WIDTH, grayR, cenR);
-
+		
 		// Pre-compute weights for offset aggregation
 		int offsets[NB_ITERATIONS];
 		static float weightsHor[NB_ITERATIONS * HEIGHT * WIDTH * 3], weightsVert[NB_ITERATIONS * HEIGHT * WIDTH * 3];
 		offsetGen(NB_ITERATIONS, offsets);
 		for (unsigned idx = 0; idx < NB_ITERATIONS; idx++) {
+			//t_census_start = omp_get_wtime();
 			computeWeights(HEIGHT, WIDTH, 0, offsets + idx, rgbL, weightsHor + idx * (3 * HEIGHT * WIDTH));
 			computeWeights(HEIGHT, WIDTH, 1, offsets + idx, rgbL, weightsVert + idx * (3 * HEIGHT * WIDTH));
+			//t_census_end = omp_get_wtime();
+			//T_census += (t_census_end - t_census_start);
 		}
 
 		// Find for each pixel, the disparity level minimizing the aggregated costs.
@@ -124,15 +126,15 @@ int main(void) {
 
 		MD5_Update(HEIGHT * WIDTH * sizeof(char), filteredDepthMap);
 
-		frameCount++;
+		/*frameCount++;
 
 		if (frameCount % 30 == 0) {
-			/*printf("Temps moyen disparitySelect = %.3f ms\n",
-				(T_disp / frameCount) * 1000.0);*/
+			//printf("Temps moyen disparitySelect = %.3f ms\n",
+				//(T_disp / frameCount) * 1000.0);
 
-			printf("Temps moyen rgb2gray = %.3f ms\n",
-				(T_rgb2gray / frameCount) * 1000.0);
-		}
+			printf("Temps moyen ComputeWeights = %.3f ms\n",
+				(T_census / frameCount) * 1000.0);
+		}*/
 	}
 
 	return 0;

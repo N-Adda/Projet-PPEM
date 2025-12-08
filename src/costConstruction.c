@@ -45,7 +45,7 @@ void costConstruction (int height, int width, float truncValue,
 
     // For each disparity, scan the pixels of the left image
     // Boucles 2D en data-parallel : chaque thread traite un sous-ensemble de lignes
-    //#pragma omp parallel for private(i) schedule(static)
+    #pragma omp parallel for private(i) schedule(guided)
     for(j=0; j<height; j++)
     {
         for(i=0; i<width; i++)
