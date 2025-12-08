@@ -25,6 +25,7 @@ void aggregateCost (int height , int width, int nbIterations,
 
     // For each of the offset, do the horizontal and vertical
     // aggregation
+#pragma omp parallel private(i, offsetIdx)
     for(offsetIdx=0; offsetIdx< 2*nbIterations; offsetIdx++){
         int offset = offsets[offsetIdx/2];
 
@@ -42,6 +43,7 @@ void aggregateCost (int height , int width, int nbIterations,
 		float *dest = (offsetIdx%2 == 0)? aggregatedDisparity: disparityError; 
 
         // Scan the image pixels
+#pragma omp for schedule(dynamic)
 		for(j=0; j<height; j++){
 			for(i=0; i<width; i++){
 				float costM, costP, costO;
