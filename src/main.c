@@ -22,15 +22,19 @@ int stopThreads = 0;
 
 int main(void) {
 
-	// Empêche les parallélismes imbriqués
-	omp_set_num_threads(15);  // CPU = 4 threads logiques
+	int nproc = omp_get_num_procs(); //nombre de processeurs logiques
+	omp_set_dynamic(0); //empêcher runtime d'ajuster automatiquement
+	omp_set_num_threads(nproc - 1);
+	omp_set_nested(0); // Désactiver nested parallelism pour éviter oversubscription accidentelle
 
 	printf("Stereo Matching App\n");
 
-	//Variable temps disparity
-	//double t_disp_start, t_disp_end;
-	//double T_disp = 0.0;
-	//int frameCount = 0;
+	//Calcul du Speedup 
+	double speedup = 0.0;
+	double temp_1_thread = 19733; //Temps d'execution avec 1 thread en ms
+	double t_frame_start = 0.0, t_frame_end = 0.0;
+	double T_frame_acc = 0.0;
+	int frameCount = 0;
 
 	//Variable temps rgb2gray
 	//double t_census_start, t_census_end;
@@ -48,6 +52,10 @@ int main(void) {
 
 
 	while (!stopThreads) {
+		frameCount++;
+		if (frameCount == 1) {
+			t_frame_start = omp_get_wtime();
+		}
 
 		// Read images
 		static unsigned char yL[HEIGHT * WIDTH], uL[HEIGHT * WIDTH / 4], vL[HEIGHT * WIDTH / 4];
@@ -100,7 +108,9 @@ int main(void) {
 			costConstruction(HEIGHT, WIDTH, 12 /*Magic number*/, &disp, grayL, grayR, cenL, cenR, dispError);
 		
 			static float aggregatedDisparityCost[HEIGHT * WIDTH];
+			
 			aggregateCost(HEIGHT, WIDTH, NB_ITERATIONS, dispError, offsets, weightsHor, weightsVert, aggregatedDisparityCost);
+			
 
 			if (disp == MIN_DISPARITY) {
 				memcpy(bestCost, aggregatedDisparityCost, HEIGHT * WIDTH * sizeof(float));
@@ -132,9 +142,20 @@ int main(void) {
 			//printf("Temps moyen disparitySelect = %.3f ms\n",
 				//(T_disp / frameCount) * 1000.0);
 
-			printf("Temps moyen ComputeWeights = %.3f ms\n",
+			printf("Temps computeweight = %.3f ms\n",
 				(T_census / frameCount) * 1000.0);
 		}*/
+
+		if (frameCount == 210) {
+			t_frame_end = omp_get_wtime();
+			T_frame_acc = t_frame_end - t_frame_start;
+			speedup = temp_1_thread / (T_frame_acc * 1000.0);
+			printf("Le Speedup est = %.6f \n", (speedup));
+		
+		
+		
+		}
+
 	}
 
 	return 0;

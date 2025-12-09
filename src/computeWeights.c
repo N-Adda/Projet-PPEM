@@ -32,7 +32,7 @@ void computeWeights (int height , int width, int horOrVert,
 	//distanceCoeff *= -1;
 
     // Scan the pixels of the rgb image
-    #pragma omp parallel for collapse(2) private(i) schedule(guided) 
+    #pragma omp parallel for collapse(2) private(i,j) schedule(dynamic) 
     for(j=0; j<height; j++)
     {
         for(i=0; i<width; i++)
