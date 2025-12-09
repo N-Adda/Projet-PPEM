@@ -28,7 +28,7 @@ void aggregateCost (int height , int width, int nbIterations,
 
     // For each of the offset, do the horizontal and vertical
     // aggregation
-#pragma omp parallel private(i, offsetIdx) 
+#pragma omp parallel private(i,offsetIdx) 
     for(offsetIdx=0; offsetIdx< 2*nbIterations; offsetIdx++){
         int offset = offsets[offsetIdx/2];
 
