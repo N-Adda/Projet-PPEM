@@ -16,7 +16,8 @@
 
 void rgb2Gray(int size, unsigned char *rgb, float *gray){
     int idx;
-    
+	// Simple boucle 1D, parfaitement parallélisable
+	#pragma omp parallel for schedule(static)
     for(idx=0; idx< size; idx++){
         gray[idx] = RGB2GRAY_COEF_R*(float)rgb[3*idx] +
                     RGB2GRAY_COEF_G*(float)rgb[3*idx+1] +

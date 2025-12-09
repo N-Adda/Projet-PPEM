@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <float.h>
-
+#include <omp.h>
 #include "params.h"
 #include "yuvRead.h"
 #include "displayRGB.h"
@@ -21,6 +21,10 @@
 int stopThreads = 0;
 
 int main(void) {
+	int frameCount = 0;
+	double T_aggcost = 0.0;
+	omp_set_num_threads(24);
+
 	printf("Stereo Matching App\n");
 
 	// Open YUV Files (left & right)
@@ -42,8 +46,11 @@ int main(void) {
 		// Convert images to RGB
 		static unsigned char rgbL[HEIGHT * WIDTH * 3], rgbR[HEIGHT * WIDTH * 3];
 		//startTiming(51);
+		//double t_aggcost_start = omp_get_wtime();
 		yuv2rgb(WIDTH, HEIGHT, yL, uL, vL, rgbL);
 		yuv2rgb(WIDTH, HEIGHT, yR, uR, vR, rgbR);
+		//double t_aggcost_end = omp_get_wtime();
+		//T_aggcost += (t_aggcost_end - t_aggcost_start);
 		//unsigned int timeYUV2RGB = stopTiming(51);
 
 		// Convert to gray
@@ -75,11 +82,14 @@ int main(void) {
 
 			// Cost construction
 			static float dispError[HEIGHT * WIDTH];
+			
 			costConstruction(HEIGHT, WIDTH, 12 /*Magic number*/, &disp, grayL, grayR, cenL, cenR, dispError);
+			
 
 			static float aggregatedDisparityCost[HEIGHT * WIDTH];
+			
 			aggregateCost(HEIGHT, WIDTH, NB_ITERATIONS, dispError, offsets, weightsHor, weightsVert, aggregatedDisparityCost);
-
+			
 			if (disp == MIN_DISPARITY) {
 				memcpy(bestCost, aggregatedDisparityCost, HEIGHT * WIDTH * sizeof(float));
 			}
@@ -91,14 +101,24 @@ int main(void) {
 
 		// Apply median filter on result
 		static unsigned char filteredDepthMap[HEIGHT * WIDTH];
+		
 		medianFilter(HEIGHT, WIDTH, 1, depthMap, filteredDepthMap);
-
+		
 		// Display
 		displayRGB(0, HEIGHT, WIDTH, rgbL);
 		displayLum(1, filteredDepthMap);
 
 		// MD5
 		MD5_Update(HEIGHT * WIDTH * sizeof(char), filteredDepthMap);
+
+		/*frameCount++;
+		if (frameCount % 30 == 0) {
+			/*printf("Temps moyen disparitySelect = %.3f ms\n",
+				(T_disp / frameCount) * 1000.0);
+
+			printf("Temps moyen rgb2gray = %.3f ms\n",
+				(T_aggcost / frameCount) * 1000.0);
+		}*/
 	}
 
 	return 0;
