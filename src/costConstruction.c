@@ -12,6 +12,7 @@
 
 #include "costConstruction.h"
 #include <math.h>
+#include <omp.h>
 
 #define min(x,y) (((x)<(y))?(x):(y))
 
@@ -41,7 +42,10 @@ void costConstruction (int height, int width, float truncValue,
 {
     int i,j;
 
+
     // For each disparity, scan the pixels of the left image
+    // Boucles 2D en data-parallel : chaque thread traite un sous-ensemble de lignes
+    #pragma omp parallel for private(i) schedule(guided)
     for(j=0; j<height; j++)
     {
         for(i=0; i<width; i++)

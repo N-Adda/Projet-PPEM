@@ -40,7 +40,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <omp.h>
 #include "md5.h"
 
 MD5_CTX ctx;

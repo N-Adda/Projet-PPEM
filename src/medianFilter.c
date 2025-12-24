@@ -9,6 +9,8 @@
 */
 
 #include "medianFilter.h"
+#include <omp.h>
+
 #define min(x,y) (((x)<(y))?(x):(y))
 #define max(x,y) (((x)<(y))?(y):(x))
 
@@ -50,6 +52,7 @@ void medianFilter (int height , int width, int topDownBorderSize,
 	int i,j;
 	int k,l;
 	// Process pixels one by one
+#pragma omp parallel for private(i,k,l) schedule(guided)
 	for(j=topDownBorderSize; j< height-topDownBorderSize; j++){
 		for(i=0;i<width;i++){
 			unsigned char pixels[9];

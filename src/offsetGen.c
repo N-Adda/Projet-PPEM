@@ -11,6 +11,7 @@
 
 #include "offsetGen.h"
 #include <math.h>
+#include <omp.h>
 
 
 void offsetGen (int nbIterations, int *offsets){

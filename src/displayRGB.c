@@ -197,6 +197,7 @@ void displayRGB(int id, int height, int width, unsigned char *rgb){
 	// Retrieve texture attribute
 	SDL_QueryTexture(texture, NULL, NULL, &w, &h);
 
+	#pragma omp parallel for schedule(static)
 	for (idxPxl = 0; idxPxl < h*w; idxPxl++){
 		*(((char*)(surface->pixels)) + 4 * idxPxl + 0) = *(rgb + 3 * idxPxl + 2);
 		*(((char*)(surface->pixels)) + 4 * idxPxl + 1) = *(rgb + 3 * idxPxl + 1);
